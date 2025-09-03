@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho{
+    height: 55px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+align-items: center;
+}
+    .cabeçalho a {
+        color: ghostwhite;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.conteiner {
+   text-align: center;
+    justify-content: space-between;
+
+}
+.imagem {
+    height: 300px;
+width: 300px;
+}
+.rodape {
+    background-color: black;
+    height: 50px;
+}
+.rodape a {
+    font-size-adjust:1.5 ;
+    color: whitesmoke;
+}
+.contatos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 25px;
+}
